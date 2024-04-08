@@ -31,7 +31,7 @@ export const players = [
     }
 ]
 
-export function getSinglePlayer(key: string) {
+export function getSinglePlayer(key) {
     const player = players.find((p) => p.key === key);
     return player;
 }
